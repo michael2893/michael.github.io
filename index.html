@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Terranova | Senior ML Systems & Research Engineer</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- MathJax for rendering equations -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            500: '#22c55e',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-slate-950">
+
+    <!-- Header / Navigation -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-lg font-bold tracking-tight text-white hover:text-brand-500 transition-colors">Michael Terranova</a>
+            <div class="space-x-6 text-sm font-medium text-slate-400">
+                <a href="#academics" class="hover:text-white transition-colors">Graduate Focus</a>
+                <a href="#research" class="hover:text-white transition-colors">Research & Math</a>
+                <a href="https://github.com/michael2893" target="_blank" class="text-brand-500 hover:underline">GitHub ↗</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-4xl mx-auto px-6 py-16">
+        <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-brand-500 uppercase bg-brand-500/10 border border-brand-500/20 rounded-full">
+            Senior Engineer & OMSCS Student
+        </div>
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+            Distributed systems scale meets applied statistics & machine learning.
+        </h1>
+        <p class="text-base md:text-lg text-slate-400 max-w-2xl mb-8 leading-relaxed">
+            Senior Distributed Infrastructure Engineer specializing in real-time streaming platforms and ML feature systems. Completing an M.S. in Computer Science at Georgia Tech with a focus on machine learning, Bayesian inference, and graph theory.
+        </p>
+        <div class="flex flex-wrap gap-4 text-sm font-medium">
+            <a href="mailto:amt2893@gmail.com" class="px-4 py-2 bg-brand-500 text-slate-950 font-semibold rounded-lg hover:bg-brand-400 transition-colors">Contact Me</a>
+            <a href="https://github.com/michael2893" target="_blank" class="px-4 py-2 bg-slate-900 border border-slate-800 text-slate-200 rounded-lg hover:border-slate-700 transition-colors">GitHub Profile</a>
+            <a href="https://doi.org/10.5281/zenodo.20368030" target="_blank" class="px-4 py-2 bg-slate-900 border border-slate-800 text-slate-200 rounded-lg hover:border-slate-700 transition-colors">CDC Publication ↗</a>
+        </div>
+    </section>
+
+    <!-- Graduate Coursework & Academic Focus Section -->
+    <section id="academics" class="max-w-4xl mx-auto px-6 py-12 border-t border-slate-800">
+        <div class="flex items-center justify-between mb-8">
+            <div>
+                <h2 class="text-2xl font-bold text-white">Graduate Coursework & Foundations</h2>
+                <p class="text-slate-400 text-sm">Georgia Institute of Technology — M.S. in Computer Science (Machine Learning)</p>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-4">
+            <!-- Domain 1: Probabilistic & Core ML -->
+            <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-5">
+                <span class="text-xs font-mono text-brand-500 uppercase tracking-wider block mb-2">Probabilistic & ML</span>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                        Bayesian Statistics
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                        Machine Learning
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Domain 2: Theory & Quantum -->
+            <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-5">
+                <span class="text-xs font-mono text-brand-500 uppercase tracking-wider block mb-2">Theory & Graphs</span>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                        Network Science <span class="text-xs text-slate-500">(Graph Theory)</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                        Quantum Computing
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Domain 3: AI Systems & Human Factors -->
+            <div class="bg-slate-900/40 border border-slate-800 rounded-xl p-5">
+                <span class="text-xs font-mono text-brand-500 uppercase tracking-wider block mb-2">AI Systems & Ethics</span>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                        Knowledge-Based AI (KBAI)
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                        AI Ethics & Fairness
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                        Human-Computer Interaction
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-6 bg-slate-900/20 border border-slate-800/80 p-4 rounded-lg text-xs text-slate-400">
+            <span class="font-semibold text-slate-200">Undergraduate Foundations (The Ohio State University):</span> B.S. in Computational Neuroscience (PCA, k-means, neuro-imaging analytics) & CS Minor.
+        </div>
+    </section>
+
+    <!-- Research Deep Dives -->
+    <section id="research" class="max-w-4xl mx-auto px-6 py-12 border-t border-slate-800">
+        <h2 class="text-2xl font-bold text-white mb-2">Applied Research & Publications</h2>
+        <p class="text-slate-400 text-sm mb-8">Focus on Bayesian modeling, hierarchical inference, and longitudinal analysis.</p>
+
+        <div class="space-y-6">
+            <!-- Research 1: CDC -->
+            <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                <div class="flex flex-wrap justify-between items-start mb-3">
+                    <div>
+                        <span class="text-xs font-mono text-brand-500">PyMC / MCMC / Hierarchical Regression</span>
+                        <h3 class="text-xl font-bold text-white mt-1">CDC Wastewater Surveillance Analysis</h3>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono">DOI: 10.5281/zenodo.20368030</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                    Formulated hierarchical linear and Dirichlet regression models in PyMC to analyze viral concentration metrics across 1,200+ CDC NWSS monitoring sites. Evaluated variance distribution between site-level and state-level observations.
+                </p>
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800 font-mono text-xs text-slate-300 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div>
+                        $$\beta_1 \text{ HDI: } [0.028, 0.153]$$
+                        <span class="text-slate-500 text-[11px] block mt-1">Population size effect estimation</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.20368030" target="_blank" class="px-3 py-1.5 bg-brand-500/10 text-brand-500 border border-brand-500/20 rounded hover:bg-brand-500/20 transition-colors">View Zenodo Publication ↗</a>
+                </div>
+            </div>
+
+            <!-- Research 2: Clinical Longitudinal -->
+            <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                <div class="flex flex-wrap justify-between items-start mb-3">
+                    <div>
+                        <span class="text-xs font-mono text-brand-500">ANCOVA / Multivariate Modeling</span>
+                        <h3 class="text-xl font-bold text-white mt-1">Clinical Longitudinal Evaluative Fears Study</h3>
+                    </div>
+                    <span class="text-xs text-slate-500 font-mono">Primary Author</span>
+                </div>
+                <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                    Designed a prospective longitudinal study analyzing Social Anxiety (SA), Fear of Negative Evaluation (FNE), and Fear of Positive Evaluation (FPE) in clinical populations. Modeled symptom trajectories across follow-up intervals using ANCOVA with baseline covariates.
+                </p>
+                <a href="https://github.com/michael2893/QuantitativeNeuro" target="_blank" class="text-xs text-brand-500 font-semibold hover:underline inline-flex items-center gap-1">View QuantitativeNeuro Repository ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+        <p>© 2026 Michael Terranova. Built for GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
